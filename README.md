@@ -52,4 +52,4 @@ Once the app is running, you can:
 2. Enter the time you are available to watch a movie in the `HH:mm` format.
 3. Click "Get Recommendations" to view movie recommendations based on your input.
 
-If you face CORS issue then hit below URL and allow to get data: https://cors-anywhere.herokuapp.com/https://pastebin.com/raw/cVyp3McN
+You may face CORS issue with localhost, to resolve this issue-  hit below URL and click on `Request temporary access to the demo server` to get data: https://cors-anywhere.herokuapp.com/https://pastebin.com/raw/cVyp3McN
