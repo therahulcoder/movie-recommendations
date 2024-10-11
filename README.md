@@ -22,27 +22,30 @@ A React application for recommending movies based on genre and available time. T
 To set up the project locally, follow these steps:
 
 1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/therahulcoder/movie-recommendations.git
-    cd movie-recommendations
-    ```
+
+   ```bash
+   git clone https://github.com/therahulcoder/movie-recommendations.git
+   cd movie-recommendations
+   ```
 
 2. **Install dependencies:**
-    Ensure you have Node.js installed, then run:
-    ```bash
-    npm install
-    ```
+   Ensure you have Node.js installed, then run:
+
+   ```bash
+   npm install
+   ```
 
 3. **Start the development server:**
-    ```bash
-    npm start
-    ```
+
+   ```bash
+   npm start
+   ```
 
 4. **Build the application:**
-    For production build, run:
-    ```bash
-    npm run build
-    ```
+   For production build, run:
+   ```bash
+   npm run build
+   ```
 
 ## Usage
 
@@ -51,5 +54,5 @@ Once the app is running, you can:
 1. Enter a genre in input box.
 2. Enter the time you are available to watch a movie in the `HH:mm` format.
 3. Click "Get Recommendations" to view movie recommendations based on your input.
-
-You may face CORS issue with localhost, to resolve this issue-  hit below URL and click on `Request temporary access to the demo server` to get data: https://cors-anywhere.herokuapp.com/https://pastebin.com/raw/cVyp3McN
+4. If the input is invalid, an error message will be displayed.
+5. If no recommendations are available, a message will be displayed.
